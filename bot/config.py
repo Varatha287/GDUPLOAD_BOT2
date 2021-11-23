@@ -1,12 +1,12 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
+    BOT_TOKEN = "2106263760:AAHKYfGseyfRo_Ndtwek2oBqjgs5epoQkO0"
+    APP_ID = "18584875"
+    API_HASH = "5d9cc4ec348031e2b32490ff3d8dc40e"
+    DATABASE_URL = "postgres://xiyyeoopktxrlu:153e409d2164d6d360f6b4830cc83e31be6fba6ae3e7ae87970de13b1fbf3522@ec2-54-146-82-179.compute-1.amazonaws.com:5432/ddglhgaqmrbfb2"
+    SUDO_USERS = "1682767082 1290751149 1237643807" # Sepearted by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
+    G_DRIVE_CLIENT_ID = "132564500673-mg3nqrj15hl6q7vift7oh3lslb54kb3f.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
     SUPPORT_CHAT_LINK = ""
 
 
@@ -21,7 +21,7 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**[Hi there](https://youtu.be/sTQkY0UE20c) {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**[Hi Tharshikan]) {}.**\n__I'm Tharshikan Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
 
     HELP_MSG = [
         ".",
@@ -42,19 +42,19 @@ class Messages:
         "**Join Channel @lkhitech**"
         ]
      
-    RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
+    RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded One of the fucking day of THARSHIKAN.**\n__User rate limit exceeded try after 24 hours.__"
     
     FILE_NOT_FOUND_MESSAGE = "❗ **File/Folder not found.**\n__File id - {} Not found. Make sure it\'s exists and accessible by the logged account.__"
     
     INVALID_GDRIVE_URL = "❗ **Invalid Google Drive URL**\nMake sure the Google Drive URL is in valid format."
     
-    COPIED_SUCCESSFULLY = "✅ **Copied successfully.**\n[{}]({}) __({})__"
+    COPIED_SUCCESSFULLY = "✅ **Copied successfully Happy Tharshikan.**\n[{}]({}) __({})__"
     
     NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
     
-    DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File...**\n**Filename:** ```{}```\n**Size:** ```{}```"
+    DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File to https://pjalwalsindex.priyanshujalwal.workers.dev/0:/THARSHIKAN%20MASS%202003/ ...**\n**Filename:** ```{}```\n**Size:** ```"{}```\n**Tharshikan
     
-    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully.**\n[{}]({}) __({})__"
+    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully to https://pjalwalsindex.priyanshujalwal.workers.dev/0:/THARSHIKAN%20MASS%202003/.**\n[{}]({}) __({})__"
     
     DOWNLOAD_ERROR = "❗**Downloader Failed**\n{}\n__Link - {}__"
     
@@ -82,7 +82,7 @@ class Messages:
     
     NOT_FOLDER_LINK = "❗ **Invalid folder link.**\n__The link you send its not belong to a folder.__"
     
-    CLONING = "🗂️ **Cloning into Google Drive...**\n__G-Drive Link - {}__"
+    CLONING = "🗂️ **Cloning into Google Drive Waiting Patiently THARSHIKAN...**\n__G-Drive Link - {}__"
     
     PROVIDE_GDRIVE_URL = "**❗ Provide a valid Google Drive URL along with commmand.**\n__Usage - /{} (GDrive Link)__"
     
@@ -90,7 +90,7 @@ class Messages:
     
     DELETED_SUCCESSFULLY = "🗑️✅ **File Deleted Successfully.**\n__File deleted permanently !\nFile id - {}__"
     
-    WENT_WRONG = "⁉️ **ERROR: SOMETHING WENT WRONG**\n__Please try again later.__"
+    WENT_WRONG = "⁉️ **ERROR: SOMETHING WENT WRONG FUCK OFF EVERYONE**\n__Please try again later.__"
     
     EMPTY_TRASH = "🗑️🚮**Trash Emptied Successfully !**"
     
